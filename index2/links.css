@@ -1,0 +1,35 @@
+.usefulLinksHeading {
+    font-weight: 700;
+}
+
+.usefulLinks {
+    padding-inline-start: 0px;
+    margin: 0;
+}
+
+.usefulLinksBackground {
+    background-color: rgb(187, 187, 187);
+    border-radius: 30px;
+    box-shadow: 0px 0px 6px 5px #BBBBBB;
+    max-width: 350px;
+    margin: 0px auto;
+}
+
+.usefulLinks__item {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    line-height: 30px;
+}
+
+.usefulLinks__item:focus {
+    outline: 1px solid currentColor;
+}
+
+.usefulLinks__item:hover {
+    color: rgb(240, 200, 80);
+}
+
+.usefulLinks__item:active {
+    color: rgba(250, 0, 0, 0.705);
+}

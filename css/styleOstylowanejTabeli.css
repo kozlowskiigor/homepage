@@ -1,0 +1,36 @@
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.tableHeader {
+    background-color: crimson;
+    color: white;
+    font-weight: normal;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
+
+.tableRow:hover {
+    background-color: #ddd;
+}
+
+.container {
+    overflow-x: auto;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/formularzeWJSie.js"></script>
+    <title>Formularze w JS-ie</title>
+</head>
+
+<body>
+    <form class="js-form">
+        <fieldset>
+            <legend>Twoje dane</legend>
+            <p>
+                <label>
+                    Twój wzrost: <input class="js-height" required type="number" min="1" step="any">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Twoje waga: <input class="js-weight" required type="number" min="1" step="any">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Pole typu radio</legend>
+            <ul>
+                <li>
+                <label>
+                    Opcja 1
+                    <input type="radio" value="opcja-1" name="radio" class="js-radio-1">
+                </label>
+                </li>
+                <li>
+                    <label>
+                        Opcja 2
+                        <input type="radio" value="opcja-2" name="radio" class="js-radio-2">
+                    </label>
+                    </li>
+            </ul>
+        </fieldset>
+        <p>
+            <button>Policz BMI!</button>
+        </p>
+    </form>
+    <p>Twoje BMI wynosi: <strong class="js-bmi">N/A</strong></p>
+</body>
+
+</html>

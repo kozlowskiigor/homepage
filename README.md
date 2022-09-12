@@ -1,6 +1,3 @@
-# homepage
-## nagłówek 2. poziomu
-=======
 # Igor Kozłowski
 
 ## Demo

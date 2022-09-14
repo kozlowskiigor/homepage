@@ -24,3 +24,20 @@ body {
     background-position: center;
     background-attachment: scroll;
 }
+
+.container {
+    text-indent: 20%;
+    text-transform: uppercase;
+}
+
+.container__decoration {
+    text-decoration-line: underline;
+    text-decoration-color: teal;
+    text-decoration-style: wavy;
+}
+
+.lija {
+    width: calc(80% - 80px); 
+    object-fit: cover;
+    object-position: left;
+}

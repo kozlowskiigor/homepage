@@ -6,10 +6,19 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background: #eee;
+}
+
 .element {
-    width: 300px;
+    color: white;
+    margin: 20px auto;
+    width: 600px;
     height: 300px;
     resize: both;
     overflow: auto;
     background-image: url("../images/Lija.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
 }

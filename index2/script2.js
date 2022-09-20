@@ -2,6 +2,23 @@ function welcome() {
     console.log("Cześć programisto! Witam na stronie opisującej po krótce moje życie.");
 }
 
+let onChangeBackgroundClick = () => {
+    body.classList.toggle("lightstyle");
+    table.classList.toggle("darkStyle");
+    if (body.classList.contains("lightstyle")) {
+        changingBackground.innerText = "Zmień motyw na ciemny";
+    } else {
+        changingBackground.innerText = "Zmień motyw na jasny";
+    }
+    headings.forEach((heading) => {
+        heading.classList.toggle("heading--darker");
+    })
+    everyButton.forEach((button) => {
+        button.classList.toggle("darkStyle");
+        button.classList.toggle("whiteFont");
+    })
+}
+
 welcome();
 
 let body = document.querySelector(".body");
@@ -45,19 +62,4 @@ buttonHideLijaPhoto.addEventListener("click", () => {
 });
 
 // Zmiana motywu strony 
-changingBackground.addEventListener("click", () => {
-    body.classList.toggle("lightstyle");
-    table.classList.toggle("darkStyle");
-    if (body.classList.contains("lightstyle")) {
-        changingBackground.innerText = "Zmień motyw na ciemny";
-    } else {
-        changingBackground.innerText = "Zmień motyw na jasny";
-    }
-    headings.forEach((heading) => {
-        heading.classList.toggle("heading--darker");
-    })
-    everyButton.forEach((button) => {
-        button.classList.toggle("darkStyle");
-        button.classList.toggle("whiteFont");
-    })
-})
+changingBackground.addEventListener("click", onChangeBackgroundClick);

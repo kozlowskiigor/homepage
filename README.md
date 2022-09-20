@@ -8,4 +8,4 @@ https://kozlowskiigor.github.io/homepage/kantor.html
 
 ## Description
 
-Opis mojej strony
+Description of my page

@@ -6,6 +6,6 @@ https://kozlowskiigor.github.io/homepage/index2.html
 
 https://kozlowskiigor.github.io/homepage/kantor.html
 
-## Opis
+## Description
 
-Opis mojej strony
+Description of my page

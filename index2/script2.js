@@ -1,8 +1,8 @@
-function welcome() {
+const welcome = () => {
     console.log("Cześć programisto! Witam na stronie opisującej po krótce moje życie.");
 }
 
-let onChangeBackgroundClick = () => {
+const togglePageTheme = () => {
     body.classList.toggle("lightstyle");
     table.classList.toggle("darkStyle");
     if (body.classList.contains("lightstyle")) {
@@ -21,17 +21,17 @@ let onChangeBackgroundClick = () => {
 
 welcome();
 
-let body = document.querySelector(".body");
-let buttonHideMyPhoto = document.querySelector(".js-buttonHideMyPhoto");
-let buttonHideTeamPhoto = document.querySelector(".js-buttonHideTeamPhoto");
-let buttonHideLijaPhoto = document.querySelector(".js-buttonHideLijaPhoto");
-let changingBackground = document.querySelector(".js-changingBackground");
-let everyButton = document.querySelectorAll(".button");
-let table = document.querySelector(".table");
-let myPicture = document.querySelector(".myPicture");
-let wks = document.querySelector(".wks");
-let lija = document.querySelector(".lija");
-let headings = document.querySelectorAll(".heading");
+const body = document.querySelector(".body");
+const buttonHideMyPhoto = document.querySelector(".js-buttonHideMyPhoto");
+const buttonHideTeamPhoto = document.querySelector(".js-buttonHideTeamPhoto");
+const buttonHideLijaPhoto = document.querySelector(".js-buttonHideLijaPhoto");
+const changingBackground = document.querySelector(".js-changingBackground");
+const everyButton = document.querySelectorAll(".button");
+const table = document.querySelector(".table");
+const myPicture = document.querySelector(".myPicture");
+const wks = document.querySelector(".wks");
+const lija = document.querySelector(".lija");
+const headings = document.querySelectorAll(".heading");
 
 // Ukryj/Pokaż zdjęcie 
 buttonHideMyPhoto.addEventListener("click", () => {
@@ -61,5 +61,4 @@ buttonHideLijaPhoto.addEventListener("click", () => {
     }
 });
 
-// Zmiana motywu strony 
-changingBackground.addEventListener("click", onChangeBackgroundClick);
+changingBackground.addEventListener("click", togglePageTheme);

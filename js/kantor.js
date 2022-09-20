@@ -1,26 +1,26 @@
-let formElement = document.querySelector(".js-form");
-let amountElement = document.querySelector(".js-amount");
-let inputCurrencyElement = document.querySelector(".js-inputCurrency");
-let outputCurrencyElement = document.querySelector(".js-outputCurrency");
-let resultElement = document.querySelector(".js-result");
+const formElement = document.querySelector(".js-form");
+const amountElement = document.querySelector(".js-amount");
+const inputCurrencyElement = document.querySelector(".js-inputCurrency");
+const outputCurrencyElement = document.querySelector(".js-outputCurrency");
+const resultElement = document.querySelector(".js-result");
 
-let plnToGbp = 0.18476;
-let plnToUsd = 0.21453;
-let plnToCzk = 5.21495;
-let plnToEur = 0.21257;
-let usdToEur = 0.99190;
-let usdToCzk = 24.33380;
-let usdToGbp = 0.86147;
-let gbpToEur = 1.15214;
-let gbpToCzk = 28.26830;
-let czkToEur = 0.04076;
+const plnToGbp = 0.18476;
+const plnToUsd = 0.21453;
+const plnToCzk = 5.21495;
+const plnToEur = 0.21257;
+const usdToEur = 0.99190;
+const usdToCzk = 24.33380;
+const usdToGbp = 0.86147;
+const gbpToEur = 1.15214;
+const gbpToCzk = 28.26830;
+const czkToEur = 0.04076;
 
 formElement.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    let inputCurrency = inputCurrencyElement.value
-    let outputCurrency = outputCurrencyElement.value
-    let amount = amountElement.value
+    const inputCurrency = inputCurrencyElement.value;
+    const outputCurrency = outputCurrencyElement.value;
+    const amount = amountElement.value;
 
     switch (inputCurrency) {
         case "PLN":

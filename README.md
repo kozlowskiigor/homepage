@@ -1,10 +1,10 @@
 # Igor Kozłowski
 
-## Demo
+## Demos
 
-https://kozlowskiigor.github.io/homepage/homepage.html
+[My page demo](https://kozlowskiigor.github.io/homepage/homepage.html)
 
-https://kozlowskiigor.github.io/homepage/currencyConverter.html
+[Simple currency converter demo](https://kozlowskiigor.github.io/homepage/currencyConverter.html)
 
 ## Description
 

@@ -1,4 +1,8 @@
-console.log("Cześć programisto!");
+function welcome() {
+    console.log("Cześć programisto! Witam na stronie opisującej po krótce moje życie.");
+}
+
+welcome();
 
 let body = document.querySelector(".body");
 let buttonHideMyPhoto = document.querySelector(".js-buttonHideMyPhoto");

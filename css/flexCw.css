@@ -7,6 +7,9 @@ body {
     width: 500px;
     display: flex;
     height: 300px;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: space-between;
 }
 
 .flex__item {
@@ -14,5 +17,5 @@ body {
     padding: 20px;
     background: teal;
     color: white;
-    flex-basis: 33%;
+    flex-basis: 20%;
 }

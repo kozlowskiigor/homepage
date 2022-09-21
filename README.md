@@ -1,6 +1,6 @@
 # **My Homepage project**
 
-## **Here is a little bit of my website**
+## **Here is a small part of my website**
 ![My website](https://raw.githubusercontent.com/kozlowskiigor/homepage/master/images/myWebsite%20Demo.png)
 ## **Description**
 
